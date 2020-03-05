@@ -1,0 +1,19 @@
+show databases;
+show tables;
+select * from  character_sets;
+SELECT * FROM COLL0ATIONS;
+
+CREATE DATABASE IF NOT EXISTS FACULDADE
+CHARACTER SET latin1
+COLLATE 'latin1_swedish_ci';
+
+USE FACULDADE;
+
+CREATE TABLE TBALUNOS (
+EGM INT primary KEY,
+NOME VARCHAR (50) NOT null,
+EMAIL VARCHAR (50) NOT NULL,
+DTNACIMENTO DATE NOT null
+ );
+ 
+ DROP TABLE TBALUNOS;
